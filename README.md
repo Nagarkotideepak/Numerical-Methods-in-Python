@@ -47,7 +47,7 @@ python3 main.py
 - Simpson's 3/8 Rule
 - Multiple Integrations
 
-###$ Methods for Linear Systems
+#### Methods for Linear Systems
 
 - Gaussian Elimination
 - Jacobi's Method
