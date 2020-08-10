@@ -1,0 +1,20 @@
+Simple Iterations Method
+The simple iterations is the simplest method used in finding roots of high-degree equation.
+In this method, the equations is rearranged to have the variable on the left side or the
+equation. An initial value of the variable, known as initial guess, substituted in the right side
+and a new value for the variable calculated. In the second iteration (repeat) the new value
+substituted on the right side. This cycle will continue until the old value and resulting new
+value of the variable become, theoretically, equal. Thus, this value will be one of the roots of
+the equations. Other root can be found with the same manner just by changing the initial
+guess.
+Now, let’s write solution steps in the following algorithm:
+1- Rearrange the equation so that the variable is put on the left side
+2- Assume (guess) an initial value of the variable to start the first iteration
+3- Substitute the value of the variable in the right side of the equation and calculate an
+new value for the variable
+4- If the new value of the variable is not equal to the previous value, consider the new one
+as the value of the variable.
+5- Repeat steps 3 and 4 until the new value is equal to the old value of the variable.
+6- In case the new value does not approach the old value (difference increases at each
+iteration) stop calculation and try another initial value or another rearrangement of the
+given equation.
